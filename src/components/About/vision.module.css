@@ -1,0 +1,53 @@
+/** @format */
+
+.vision {
+  display: flex;
+  padding: 0 100px;
+  align-items: center;
+  gap: 97px;
+  margin-bottom: 100px;
+}
+
+.vision > div {
+  display: flex;
+  flex-direction: column;
+  gap: 67px;
+}
+
+.vision h2 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 800;
+  color: var(--color-text);
+  font-family: var(--font-manrope);
+}
+
+.vision p {
+  margin: 0;
+  color: var(--color-text-book);
+  font-family: var(--font-manrope);
+  font-size: 24px;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 768px) {
+  .vision {
+    padding: 0 30px;
+    flex-direction: column-reverse;
+    gap: 15px;
+    margin-top: 50px;
+  }
+
+  .vision > div {
+    gap: 20px;
+  }
+
+  .vision h2,
+  .vision p {
+    font-size: 16px;
+  }
+
+  .vision img {
+    width: 312px;
+  }
+}

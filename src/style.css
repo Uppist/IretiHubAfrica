@@ -1,0 +1,31 @@
+/** @format */
+
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+:root {
+  /* Colours */
+  --color-text: hsla(0, 0%, 17%, 1);
+  --color-primary: hsla(0, 0%, 100%, 1);
+  --color-text-book: hsla(180, 0%, 46%, 1);
+  --color-secondary: #19376d;
+  --color-dark: #0b2447;
+  --color-bg: hsla(12, 100%, 60%, 1);
+  --color-background: hsla(0, 0%, 1%, 1);
+  /* Fonts */
+  --font-inter: "Inter";
+  --font-manrope: "Manrope";
+  --font-source: "Source Sans 3";
+  --font-cormorant: "Cormorant";
+}
+
+a {
+  text-decoration: none;
+}

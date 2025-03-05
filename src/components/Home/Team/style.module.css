@@ -1,0 +1,68 @@
+/** @format */
+
+.team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.team > div {
+  display: flex;
+  align-items: center;
+  gap: 153px;
+}
+
+.team h2 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 500;
+  color: var(--color-text);
+  font-family: var(--font-manrope);
+}
+
+.team h2 > span {
+  font-weight: 700;
+}
+
+.team1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 2px 8px 0px hsla(0, 0%, 0%, 0.04);
+}
+
+.team1 div {
+  padding: 30px;
+  text-align: center;
+}
+
+.team1 h3 {
+  font-size: 24px;
+  font-weight: 600;
+  font-family: var(--font-manrope);
+  color: var(--color-text);
+  margin: 0;
+}
+
+.team1 span {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--color-text);
+  font-family: var(--font-manrope);
+}
+
+@media only screen and (max-width: 768px) {
+  .team h2 {
+    font-size: 24px;
+  }
+
+  .team > div {
+    flex-direction: column;
+    gap: 44px;
+  }
+
+  .team1 h3 {
+    font-size: 18px;
+  }
+}

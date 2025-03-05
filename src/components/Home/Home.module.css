@@ -1,0 +1,6 @@
+/** @format */
+
+.bg {
+  background: url("../../assets/background.png") space;
+  background-size: contain;
+}
