@@ -20,11 +20,21 @@
   color: var(--color-text-book);
 }
 
-.portfolio div {
+.container {
   margin-top: 40px;
+  display: flex;
+  gap: 20px;
 }
 
-.portfolio img {
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.column img {
+  width: 100%;
+  height: 100%;
   object-fit: cover;
 }
 
@@ -41,14 +51,14 @@
     font-size: 16px;
   }
 
-  .portfolio > div {
+  .container {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 34px;
   }
 
-  .portfolio img {
+  .column img {
     width: 312px;
   }
 }

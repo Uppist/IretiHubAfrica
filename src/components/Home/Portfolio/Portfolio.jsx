@@ -18,15 +18,16 @@ export default function Portfolio() {
         outreaches and Children feeding programs.
       </p>
 
-      <div>
-        {/* <div className={styles.image1}> */}
-        <img src={image1} alt='' />
-        <img src={image2} alt='' />
-        {/* </div> */}
-        {/* <div className={styles.image2}> */}
-        <img src={image3} alt='' />
-        <img src={image4} alt='' />
-        {/* </div> */}
+      <div className={styles.container}>
+        <div className={styles.column}>
+          <img src={image1} alt='' />
+          <img src={image2} alt='' />
+        </div>
+
+        <div className={styles.column}>
+          <img src={image3} alt='' />
+          <img src={image4} alt='' />
+        </div>
       </div>
     </section>
   );
